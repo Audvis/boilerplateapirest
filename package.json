@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "server",
   "version": "1.0.0",
-  "description": "template para crear una api rest",
+  "description": "eVent Project",
   "main": "app.js",
   "scripts": {
     "start": "node .",
@@ -21,4 +21,3 @@
     "sequelize": "^6.6.5"
   }
 }
-

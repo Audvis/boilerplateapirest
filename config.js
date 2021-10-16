@@ -10,7 +10,7 @@ module.exports = {
     database:{
         username: `${DB_USER}`,
         password: `${DB_PASSWORD}`,
-        database: 'boilerplateapirest', //`${DB_NAME}`, nombre de la base de datos
+        database: 'boilerPlateApiRestTwo', //`${DB_NAME}`, nombre de la base de datos
         host: `${DB_HOST}`
     }
 } 
