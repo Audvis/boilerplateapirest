@@ -8,8 +8,8 @@ exports.deletePrueba = async (req,res) => {
             id
         }
     })
-    res.send({response:'Ticket Deleted',prueba:prueba})
+    res.send({response:'Prueba Borrada',prueba:prueba})
     } catch (error) {
-        res.json(error)
+        res.json({response:'Error al borrar la prueba',error:error})
     }
 }
