@@ -3,6 +3,8 @@ const router = express.Router();
 const {inicio} = require('../controllers/Prueba/inicio');
 
 // post
-router.post('/post',
+router.get('/',
    inicio
 )
+
+module.exports = router;
