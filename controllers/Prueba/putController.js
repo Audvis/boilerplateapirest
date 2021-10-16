@@ -1,6 +1,6 @@
 const Prueba = require('../../database/models/Prueba');
 
-exports.putController = async (req, res) => {
+exports.putPrueba = async (req, res) => {
     const { id } = req.params;
     const {
         name, description
