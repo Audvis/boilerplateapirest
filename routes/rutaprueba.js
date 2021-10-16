@@ -22,7 +22,7 @@ router.get('/get',
 )
 
 // put
-router.get('/get',
+router.get('/get/:id',
    putPrueba 
 )
 
