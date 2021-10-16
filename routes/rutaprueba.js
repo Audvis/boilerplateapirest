@@ -4,7 +4,7 @@ const {testcontroller} = require('../controllers/Prueba/testcontroller');
 const {postPrueba} = require('../controllers/Prueba/postController');
 const {getPrueba} = require('../controllers/Prueba/getController');
 const {putPrueba} = require('../controllers/Prueba/putController');
-const {deletePrueba} = require('../controllers/Prueba/deleteController');
+// const {deletePrueba} = require('../controllers/Prueba/deleteController');
 
 
 router.get('/',
