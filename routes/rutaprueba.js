@@ -16,7 +16,7 @@ router.post('/post',
 
 // get
 router.get('/get',
-   postPrueba 
+   getPrueba 
 )
 
 module.exports = router;
