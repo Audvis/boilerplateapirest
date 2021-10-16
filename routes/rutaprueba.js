@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const {testcontroller2} = require('../controllers/testcontroller2');
+const {testcontroller2} = require('../controllers/testcontroller');
 const {postPrueba} = require('../controllers/Prueba/postController');
 const {getPrueba} = require('../controllers/Prueba/getController');
 
 
-router.get('/prueba2',
-    testcontroller2
+router.get('/',
+    testcontroller
 )
 
 // post

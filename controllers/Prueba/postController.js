@@ -13,8 +13,6 @@ exports.postPrueba = async (req,res) => {
         })
         res.json({response:'La prueba se creo con exito!!!',prueba:prue});
     } catch (error) {
-        res.json({response:'La prueba no se creo!!!',error:error});
+        res.json({response:'Error al crear la prueba!!!',error:error});
     }
-    
-
 }
