@@ -1,8 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const {testcontroller} = require('../controllers/testcontroller');
+const {testcontroller} = require('../controllers/Prueba/testcontroller');
 const {postPrueba} = require('../controllers/Prueba/postController');
 const {getPrueba} = require('../controllers/Prueba/getController');
+const {putPrueba} = require('../controllers/Prueba/putController');
+const {deletePrueba} = require('../controllers/Prueba/deleteController');
 
 
 router.get('/',
@@ -17,6 +19,11 @@ router.post('/post',
 // get
 router.get('/get',
    getPrueba 
+)
+
+// put
+router.get('/get',
+   putPrueba 
 )
 
 module.exports = router;
