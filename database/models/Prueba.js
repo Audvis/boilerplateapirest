@@ -3,10 +3,9 @@ const sequelize = require('../db');
 
 const Prueba = sequelize.define('prueba', {
     id: {
-        type: DataTypes.UUID,
-        defaultValue: DataTypes.UUIDV4,
-        primaryKey: true,
-        allowNull: false
+         type: Seq.INTEGER,
+        autoIncrement: true,
+        primaryKey: true
     },
     name: {
         type: DataTypes.STRING,
