@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const {postPrueba} = require('../controllers/Prueba/postController');
 const {getPrueba} = require('../controllers/Prueba/getController');
-
+const {putPrueba} = require('../controllers/Prueba/putController');
 
 // post
 router.post('/post',
@@ -14,5 +14,9 @@ router.get('/get',
    getPrueba 
 )
 
+// put
+router.put('/put/:id',
+   putPrueba 
+)
 
 module.exports = router;
