@@ -16,9 +16,11 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cors())
 
 
+// rutas inicio
+app.use('/', require('./routes/inicio'));
 
-//importar las rutas creadas
-app.use('/test', require('./routes/rutaprueba'));//ruta de prueba
+// rutas de prueba
+app.use('/test', require('./routes/rutaprueba'));
 
 
 
