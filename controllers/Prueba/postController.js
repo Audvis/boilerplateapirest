@@ -11,8 +11,9 @@ exports.postPrueba = async (req,res) => {
             name,         
             description
         })
+        res.json({response:'La prueba se creo con exito!!!',prueba:prue});
     } catch (error) {
-        res.send({response:'La prueba no se creo!!!',error:error});
+        res.json({response:'La prueba no se creo!!!',error:error});
     }
     
 
