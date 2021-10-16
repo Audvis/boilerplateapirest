@@ -7,6 +7,6 @@ exports.getPrueba = async (req,res) => {
         })
         res.json(pruebas)
     } catch (error) {
-        res.send(res.send({response:'no hay pruebas o error',error:error}))
+        res.send({response:'no hay pruebas o error',error:error})
     }
 }
