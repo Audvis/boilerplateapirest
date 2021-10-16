@@ -22,7 +22,7 @@ router.put('/put/:id',
 
 // delete
 router.delete('/delete/:id',
-   putPrueba 
+   deletePrueba 
 )
 
 module.exports = router;
