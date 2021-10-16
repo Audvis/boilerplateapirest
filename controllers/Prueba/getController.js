@@ -1,4 +1,4 @@
-const Ticket = require('../../database/models/Prueba');
+const Prueba = require('../../database/models/Prueba');
 
 exports.getPrueba = async (req,res) => {
     try {
