@@ -3,7 +3,7 @@ const Ticket = require('../../database/models/Prueba');
 exports.getPrueba = async (req,res) => {
     try {
         let pruebas = await Prueba.findAll({
-            attributes: ['id','name', 'description']
+            attributes: ['name', 'description']
         })
         res.json(pruebas)
     } catch (error) {
